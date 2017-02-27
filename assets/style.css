@@ -223,7 +223,7 @@ span{
 		border-width: 5px;
 
 		position: relative;
-		right:30px;
+		right:3%;
 		
 		
 }
@@ -243,7 +243,7 @@ span{
 		border-width: 5px;
 
 		position: relative;
-		right:15px;
+		right:3%;
 
 		}
 #sp4 {
@@ -260,8 +260,8 @@ span{
 		border-width: 5px;
 
 		position: relative;
-		right:15px;
-		z-index: 9;
+		right:3%;
+		
 		
 		}
 
@@ -313,43 +313,103 @@ footer{
 }
 
 @media screen and (max-width:980px){
-	
+	.mainBox{
+		width:60%;
+		margin:15px;	
+	}
+	.connect{
+		width: 30%;
+		margin:15px;	
+	}
 }
 
 @media screen and (max-width:768px){
 	#content{
 		width:748px;
 	}
-	
-	body{
+	.body{
 		width:748px;
 		position: static;
 		overflow: auto;
-
 	}
-	
-	
-
 	.mainBox{
-		width:70%;
-		margin:15px;
-		
+		width:80%;
+		margin:15px;	
 	}
-
 	.connect{
-		width: 70%;
-		margin:15px;
-		
+		width: 60%;
+		margin:15px;	
+	}
+	.connectimg{		
+	}
 
-	
-	}
-	.connectimg{
-	
-		
-	}
 }
 
 
 @media screen and (max-width:640px){
+	header{
+
+		width:640px;
+		position: static;
+	}
+	html{
+		width:640px;
+	}
+	.body{
+		margin: 0px;
+		width:640px;
+	}
+	span{
+		text-align: center;
+	}
+	#sp1{
+		width:100%;
+		float: right;
+	}
+	#sp2{
+		float: right;
+		width:33.33%;
+	}
+	#sp3{
+		float: right;
+		width:33.33%;
+	}
+	#sp4{
+		float: right;
+		width:33.34%;
+	}
+	.mainBox{
+		width: 80%;
+		margin-top:80px;
+	}
+	img{
+		width:400px;
+	}
+	.pftext{
+
+	width: 400px;
+	height: 0px;
+	padding: 10px 30px 40px 30px;
+	background-color:#4aaaa5;
+	z-index: 10;
+	position: absolute;
+	top:400px;
+	text-align: center;
+	color: white;
+	font-size: 12pt;
+}
+
+#pftx_r2{
 	
+	top:860px;
+}
+#pftx_r3{
+	top:690px;
+	}
+#no2{
+	top:900px;
+}
+#no3{
+	top:1200px;
+}
 }
